@@ -24,7 +24,7 @@ class sale_order_line(osv.osv):
     
     _columns = {
                 'expected_date':fields.function(_calc_date,type="datetime",string = 'Expected Date of Completion'),
-                'mo_id':fields.many2one('mrp.production','Manufacturing Order')
+                'mo_id':fields.many2one('mrp.production','Manufacturing Order',readonly=True)
                 }
     
     

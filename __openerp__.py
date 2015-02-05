@@ -28,7 +28,7 @@
     """,
     'website': 'www.intellerist.com',
     'images' : [],
-    'depends' : ['base','sale',],
+    'depends' : ['base','sale','mrp'],
     
     'data': ['sale_order_view.xml',
             ],
